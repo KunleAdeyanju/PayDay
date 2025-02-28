@@ -62,10 +62,13 @@ public class PayDay {
         return gp;
     }
     public double deductTax(double gross, double taxRate) {
-        return -1.0;
+
+        return gross * taxRate;
     }
     public double netPay(double gross, double deduction) {
-        return -1.0;
+
+        double np = gross - deduction;
+        return np;
     }
 
     /*
