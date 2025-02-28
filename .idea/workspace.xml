@@ -36,11 +36,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.PayDayTest.executor": "Run",
     "TestNG.PayDayTest.test1deductTax.executor": "Run",
+    "TestNG.PayDayTest.test1formatDollars.executor": "Run",
     "TestNG.PayDayTest.test1grossPay.executor": "Run",
     "TestNG.PayDayTest.test1netPay.executor": "Run",
+    "TestNG.PayDayTest.test1pay.executor": "Run",
     "TestNG.PayDayTest.test2deductTax.executor": "Run",
+    "TestNG.PayDayTest.test2formatDollars.executor": "Run",
     "TestNG.PayDayTest.test2grossPay.executor": "Run",
     "TestNG.PayDayTest.test2netPay.executor": "Run",
+    "TestNG.PayDayTest.test2pay.executor": "Run",
+    "TestNG.PayDayTest.test3pay.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/kunle/Projects/PayDay"
@@ -87,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1netPay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1pay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1netPay" />
+      <option name="METHOD_NAME" value="test1pay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2pay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2formatDollars" />
+      <option name="METHOD_NAME" value="test2pay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2netPay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test3pay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2netPay" />
+      <option name="METHOD_NAME" value="test3pay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,18 +148,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
-      <item itemvalue="TestNG.PayDayTest.test1netPay" />
-      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
-      <item itemvalue="TestNG.PayDayTest.test2netPay" />
+      <item itemvalue="TestNG.PayDayTest.test1pay" />
+      <item itemvalue="TestNG.PayDayTest.test2pay" />
+      <item itemvalue="TestNG.PayDayTest.test3pay" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test3pay" />
+        <item itemvalue="TestNG.PayDayTest.test2pay" />
+        <item itemvalue="TestNG.PayDayTest.test1pay" />
         <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
-        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
-        <item itemvalue="TestNG.PayDayTest.test2netPay" />
-        <item itemvalue="TestNG.PayDayTest.test1netPay" />
       </list>
     </recent_temporary>
   </component>
