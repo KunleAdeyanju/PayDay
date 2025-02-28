@@ -37,8 +37,10 @@
     "TestNG.PayDayTest.executor": "Run",
     "TestNG.PayDayTest.test1deductTax.executor": "Run",
     "TestNG.PayDayTest.test1grossPay.executor": "Run",
+    "TestNG.PayDayTest.test1netPay.executor": "Run",
     "TestNG.PayDayTest.test2deductTax.executor": "Run",
     "TestNG.PayDayTest.test2grossPay.executor": "Run",
+    "TestNG.PayDayTest.test2netPay.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/kunle/Projects/PayDay"
@@ -67,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1deductTax" />
+      <option name="METHOD_NAME" value="test1formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2deductTax" />
+      <option name="METHOD_NAME" value="test2formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.PayDayTest.test1deductTax" />
+      <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test1netPay" />
-      <item itemvalue="TestNG.PayDayTest.test2deductTax" />
+      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test2netPay" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
+        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test2netPay" />
         <item itemvalue="TestNG.PayDayTest.test1netPay" />
-        <item itemvalue="TestNG.PayDayTest.test2deductTax" />
-        <item itemvalue="TestNG.PayDayTest.test1deductTax" />
       </list>
     </recent_temporary>
   </component>
